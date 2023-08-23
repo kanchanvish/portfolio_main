@@ -1,0 +1,282 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="{% static 'auth/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'auth/css/style-switcher.css' %}">
+    <link rel="stylesheet" href="{% static 'auth/css/color-1.css' %}">
+    <link rel="stylesheet" href="{% static 'auth/css/color-2.css' %}">
+    <link rel="stylesheet" href="{% static 'auth/css/color-3.css' %}">
+    <link rel="stylesheet" href="{% static 'auth/css/color-4.css' %}">
+    <link rel="stylesheet" href="{% static 'auth/css/color-5.css' %}">
+    <link rel="stylesheet" href="{% static 'auth/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'auth/css/color-1.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'auth/css/style-switcher.css' %}">
+    <link rel="stylesheet" href="{% static 'auth/css/color-1.css' %}" class="alternate-style" title="color-1">
+    <link rel="stylesheet" href="{% static 'auth/css/color-2.css' %}" class="alternate-style" title="color-2">
+    <link rel="stylesheet" href="{% static 'auth/css/color-3.css' %}" class="alternate-style" title="color-3">
+    <link rel="stylesheet" href="{% static 'auth/css/color-4.css' %}" class="alternate-style" title="color-4">
+    <link rel="stylesheet" href="{% static 'auth/css/color-5.css' %}" class="alternate-style" title="color-5">
+</head>
+
+<body>
+    <!--====Main Container Start======-->
+    <div class="main-container">
+        <!--======Aside Start=======-->
+        <div class="aside">
+            <div class="logo">
+                <a href="#"><span>port</span>folio</a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="/profile/" class="active"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="/about/"><i class="fa fa-user"></i>About</a></li>
+                <li><a href="/service/"><i class="fa fa-list"></i>Services</a></li>
+                <li><a href="/portfolio/"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+                <li><a href="/contact/"><i class="fa fa-comments"></i>Contact</a></li>
+                <li><a href="/login/"><i class="fa fa-sign"></i>Login</a></li>
+            </ul>
+        </div>
+        <!--======Aside End=======-->
+        <!--=======Main Content Start======-->
+        <div class="main-content">
+            <!--=====Home Section Start=====-->
+
+            <section class="about section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>About Me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3> I'm Kanchan vishwakarma and <span>python full stack developer</span></h3>
+                                    <p>As a web developer, you would be responsible for creating the functionality and backend of a website or web application. Here are some key content areas that you would typically be involved in:
+
+                                        <b><span style="color:deeppink"> Web Development Languages: </b></span>As a web developer, you would need to be proficient in programming languages such as HTML, CSS, JavaScript,Bootstrap, and other server-side
+                                        languages like python framework Django .</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <div class="row">
+                                        <div class="info-item padd-15">
+                                            <p> Birthday : <span>12-08-1999</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Age : <span>23</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Website : <span>NA</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Email : <span>kanchanvishwakarma199@gmail.com</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Degree : <span>IT</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Phone : <span>9109550587</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>City : <span>Bhopal</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Freelnace : <span>Available</span></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="buttons padd-15">
+                                            <a href="{% static 'KANCHAN.pdf' %}" class="btn">Download CV</a>
+
+                                            <a href="https://www.linkedin.com/in/kanchan-vishwakarma-94a9b4257/" class="btn hire-me">Hire Me</a>
+                                            <a href="https://github.com/kanchanvish?tab=repositories" class="btn hire-me">github</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <div class="skill-item">
+                                            <h5>CSS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 70%"></div>
+                                                <div class="skill-percent">70%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <h5>JS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 50%"></div>
+                                                <div class="skill-percent">30%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <h5>HTML </h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 80%"></div>
+                                                <div class="skill-percent">80%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <h5>PYTHON </h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 65%"></div>
+                                                <div class="skill-percent">65%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <h5>DJANGO </h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 15%"></div>
+                                                <div class="skill-percent">50%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="education padd-15">
+                                    <h3 class="title">Education</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!--=======timeline=======-->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>2018-2021
+                                                    </h3>
+                                                    <h4 class="timeline-title">Bachelor's in information technology</h4>
+                                                    <p class="timeline-text"><b> Branch :</b> Information Technology ,<br><b> CGPA :</b> 7.38 , <br><b>College :</b> Govt.Indira Gandhi Engineering college,Sagar M.P.<br>
+                                                        <b>University:</b> Rajiv gandhi proudyogiki vishwavidyalaya ,bhopal M.P.</p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>2014- 2017
+                                                    </h3>
+                                                    <h4 class="timeline-title">PolyTechnic (Diploma)</h4>
+                                                    <p class="timeline-text"><b>Branch :</b> Computer Hardware & Maintance ,<br><b> CGPA :</b> 7.18 , <br><b>College :</b> Govt.polytechnic college,Rewa M.P.<br>
+                                                        <b>University:</b> Rajiv gandhi proudyogiki vishwavidyalaya ,bhopal M.P.</p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>2013- 2014
+                                                    </h3>
+                                                    <h4 class="timeline-title">10th</h4>
+                                                    <p class="timeline-text"> <b>School:</b> Sishu Mandur high School, Vindhya Bihar Rewa madhya pradesh<br> <br><b>Type :</b> MP Board<br> <b>Percentage:</b>71.8</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="experience padd-15">
+                                    <h3 class="title">Certification's</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!--=======timeline=======-->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>2023 - 2023
+                                                    </h3>
+                                                    <h4 class="timeline-title">python fullstack developer(internship)</h4>
+                                                    <p class="timeline-text"><b>Duration:</b> 01-04-2023 -.....<br><b>From : </b>limbic Technologies Pvt.Ltd.Bhopal M.P.<br><b>Skills:</b>Python(programinglanguage),Django(python Framework),HTML(hyper text markup language),
+
+                                                        <br>css,bootstrap,github, aws,mysql,etc.....</p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>2022- 2023
+                                                    </h3>
+                                                    <h4 class="timeline-title">Python Full Stack Developer (training)</h4>
+                                                    <p class="timeline-text"><b>Duration:</b> 13-Sep-22 to 01-04-23<br><b>From : </b>Cybrom Technology Pvt.Ltd.Bhopal M.P.<br><b>Skills:</b> Python,Django,HTML,CSS,Bootstrap ,JavaScript,ReactJS</p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>2021 - 2023
+                                                    </h3>
+                                                    <h4 class="timeline-title">TCS online Proctoring (part time)</h4>
+                                                    <p class="timeline-text"><b>Duration:</b>01-05-21 to presently continue....<br><b>Type: </b>online exam proctoring ,wheebox Proctoring, Maritrics Proctornig<br>skills : DBMS,Excel,online portal work,Student Monitoring &Checking
+                                                        all activaty rasing alert and Malpractice</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--=====About Section End=====-->
+            <!--=========Service Section Start=========-->
+
+
+            </section>
+            <!--======Contect section End====-->
+        </div>
+        <!--====Main Content End=====-->
+    </div>
+    <!--====Main Container End======-->
+    <!--==========Style Switcher Start=========-->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas fa-moon"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+
+    <!--=========JS Files========-->
+    <script type="text/javascript" src="{% static 'auth/js/script.js' %}"></script>
+    <script type="text/javascript" src="{% static 'auth/js/style-switcher.js' %}"></script>
+    <script src="{% static 'auth/js/https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js' %}" referrerpolicy="no-referrer"></script>
+    <!-- </body>
+
+</html>
+     -->
+    <!-- {% block content %}
+{% endblock content %}
+
+    <script src="{% static 'js/script.js' %}"></script>
+    <script src="{% static 'js/style-switcher.js' %}"></script>
+    
+
+    
+
+  </body>
+</html> -->
+    <button><a href="{% url 'logout' %}">LOG OUT</a></button>
+</body>
+
+</html>
